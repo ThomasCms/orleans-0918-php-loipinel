@@ -15,11 +15,11 @@ le 3ème mois de formation à la Wild Code School :
 ### Langages
 * HTML 5
 * CSS 3
-* Bootstrap 4
 * JavaScript
 * PHP 7
 
-### Framework
+### Frameworks
+* Bootstrap 4
 * Symfony 4 (Doctrine 2 + Twig)
 
 ### Méthodologie
