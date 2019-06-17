@@ -47,6 +47,7 @@ the 3rd month of training at the Wild Code School:
 
 ### Tools
 * PhpStorm
+* Travis CI
 
 ### Contributors
 
