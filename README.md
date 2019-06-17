@@ -17,7 +17,7 @@ the 3rd month of training at the Wild Code School:
 * 2) run 'composer install'
 * 3) run 'yarn install'
 * 4) run 'bin/console d:d:c'
-* 5) run 'bin/console d:m:m'
+* 5) run 'bin/console d:migration:migrate'
 * 6) IF YOU ARE IN DEV ENVIRONNMENT run 'bin/console d:f:l' this will create you users, you can check emails and password to login with those users in /src/DataFixtures/UserFixtures from line 19
 * 7) run 'yarn encore dev' OR 'yarn encore production' if you are in production environnment
 * 8) run (sudo) 'apt-get install xvfb -y'
