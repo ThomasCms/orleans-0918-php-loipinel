@@ -23,7 +23,8 @@ the 3rd month of training at the Wild Code School:
 * 8) run (sudo) 'apt-get install xvfb -y'
 * 9) run (sudo) 'apt-get install libqt5webkit5 -y'
 * 10) run (sudo) 'apt-get install libqt5svg5 -y'
-* 11) enjoy !
+* 11) enjoy !  
+
 **THIS PROJECT IS NOT UP TO DATE AND CONTAINS VULNERABILITIES**
 
 ### Langages
