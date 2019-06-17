@@ -2,6 +2,8 @@
 
 Development of a simulator of loi Pinel.
 
+[![Build Status](https://travis-ci.com/ThomasCms/orleans-0918-php-loipinel.png?branch=master)](https://travis-ci.com/ThomasCms/orleans-0918-php-loipinel)
+
 ## Pedagogical objective
 
 Client project, carried out for the company Projet I/O, in order to put into practice the different concepts seen during
