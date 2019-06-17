@@ -2,7 +2,7 @@
 
 Development of a simulator of loi Pinel.
 
-[![Build Status](https://travis-ci.com/ThomasCms/orleans-0918-php-loipinel.png?branch=master)](https://travis-ci.com/ThomasCms/orleans-0918-php-loipinel)
+[![Build Status](https://travis-ci.com/ThomasCms/orleans-0918-php-loipinel.png)](https://travis-ci.com/ThomasCms/orleans-0918-php-loipinel)
 
 ## Pedagogical objective
 
