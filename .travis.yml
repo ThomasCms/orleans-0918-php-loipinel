@@ -2,11 +2,24 @@ language: php
 php:
   - '7.2'
 before_script:
-    - if [ -d "./.idea" ]; then echo "Forbidden idea folder found !"; exit 2; fi
-    - if [ -d "./.env.local" ]; then echo "Forbidden configuration file found !"; exit 2; fi
-    - if [ -d "./node_modules" ]; then echo "Forbidden node_modules folder found !"; exit 2; fi
-    - if [ -d "./public/build" ]; then echo "Forbidden public/build folder found !"; exit 2; fi
+  - if [ -d "./.idea" ]; then echo "Forbidden idea folder found !"; exit 2; fi
+  - if [ -d "./.env.local" ]; then echo "Forbidden configuration file found !"; exit 2; fi
+  - if [ -d "./node_modules" ]; then echo "Forbidden node_modules folder found !"; exit 2; fi
+  - if [ -d "./public/build" ]; then echo "Forbidden public/build folder found !"; exit 2; fi
+before_install:
+  - sudo apt-get update -qq
+  - sudo apt-get install build-essential git -y
+  - git clone -b stable https://github.com/jedisct1/libsodium.git
+  - cd libsodium && sudo ./configure && sudo make check && sudo make install && cd ..
+  - '[[ "$TRAVIS_PHP_VERSION" == "nightly" ]] || phpenv config-rm xdebug.ini'
+  - composer self-update
+cache:
+  yarn: true
+  directories:
+    - $HOME/.composer/cache/files
 install:
+  - pecl install libsodium
+  - echo "extension=sodium.so" >> ~/.phpenv/versions/$(phpenv version-name)/etc/php.ini
   - composer require squizlabs/php_codesniffer 3.2
 script:
-- vendor/bin/phpcs --standard=PSR2 --ignore=src/Migrations src/
+  - vendor/bin/phpcs --standard=PSR2 --ignore=src/Migrations src/
