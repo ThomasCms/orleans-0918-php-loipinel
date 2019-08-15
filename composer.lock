@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "87f0cdf2413acfdf5182613eac4077b7",
+    "content-hash": "e0cbeb979dc38c7e9ade4efb617fd1fe",
     "packages": [
         {
             "name": "doctrine/annotations",
@@ -5569,16 +5569,16 @@
         },
         {
             "name": "symfony/web-link",
-            "version": "v4.1.10",
+            "version": "v4.2.11",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/web-link.git",
-                "reference": "1488e23fac726fdf5b5890b820b61c7fcf5146c8"
+                "reference": "47b8188b4bb8d24eef0bb287b0737d5b84a6cab8"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/web-link/zipball/1488e23fac726fdf5b5890b820b61c7fcf5146c8",
-                "reference": "1488e23fac726fdf5b5890b820b61c7fcf5146c8",
+                "url": "https://api.github.com/repos/symfony/web-link/zipball/47b8188b4bb8d24eef0bb287b0737d5b84a6cab8",
+                "reference": "47b8188b4bb8d24eef0bb287b0737d5b84a6cab8",
                 "shasum": ""
             },
             "require": {
@@ -5597,7 +5597,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "4.1-dev"
+                    "dev-master": "4.2-dev"
                 }
             },
             "autoload": {
@@ -5636,7 +5636,7 @@
                 "psr13",
                 "push"
             ],
-            "time": "2019-01-03T09:05:57+00:00"
+            "time": "2019-01-16T20:31:39+00:00"
         },
         {
             "name": "symfony/webpack-encore-bundle",
