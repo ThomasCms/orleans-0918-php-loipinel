@@ -3509,16 +3509,16 @@
         },
         {
             "name": "symfony/form",
-            "version": "v4.1.10",
+            "version": "v4.1.12",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/form.git",
-                "reference": "068ed0c083d45e437edd7515e7720e994eb7482d"
+                "reference": "4bcc0f21abfc07c5d712c6da8922a31e75891f2c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/form/zipball/068ed0c083d45e437edd7515e7720e994eb7482d",
-                "reference": "068ed0c083d45e437edd7515e7720e994eb7482d",
+                "url": "https://api.github.com/repos/symfony/form/zipball/4bcc0f21abfc07c5d712c6da8922a31e75891f2c",
+                "reference": "4bcc0f21abfc07c5d712c6da8922a31e75891f2c",
                 "shasum": ""
             },
             "require": {
@@ -3586,7 +3586,7 @@
             ],
             "description": "Symfony Form Component",
             "homepage": "https://symfony.com",
-            "time": "2019-01-05T16:36:16+00:00"
+            "time": "2019-01-29T09:21:38+00:00"
         },
         {
             "name": "symfony/framework-bundle",
@@ -3907,16 +3907,16 @@
         },
         {
             "name": "symfony/intl",
-            "version": "v4.1.10",
+            "version": "v4.3.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/intl.git",
-                "reference": "1a57deaea0d538a0b44b49208c255c3e9762de93"
+                "reference": "741376a9127841ffae39f197f8bd0ab2d4772157"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/intl/zipball/1a57deaea0d538a0b44b49208c255c3e9762de93",
-                "reference": "1a57deaea0d538a0b44b49208c255c3e9762de93",
+                "url": "https://api.github.com/repos/symfony/intl/zipball/741376a9127841ffae39f197f8bd0ab2d4772157",
+                "reference": "741376a9127841ffae39f197f8bd0ab2d4772157",
                 "shasum": ""
             },
             "require": {
@@ -3932,7 +3932,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "4.1-dev"
+                    "dev-master": "4.3-dev"
                 }
             },
             "autoload": {
@@ -3978,7 +3978,7 @@
                 "l10n",
                 "localization"
             ],
-            "time": "2019-01-05T08:55:10+00:00"
+            "time": "2019-07-24T14:47:54+00:00"
         },
         {
             "name": "symfony/mime",
@@ -4230,16 +4230,16 @@
         },
         {
             "name": "symfony/options-resolver",
-            "version": "v4.1.10",
+            "version": "v4.3.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/options-resolver.git",
-                "reference": "6975c604c2993f61dbadd164e01cf2c80e390cf6"
+                "reference": "40762ead607c8f792ee4516881369ffa553fee6f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/options-resolver/zipball/6975c604c2993f61dbadd164e01cf2c80e390cf6",
-                "reference": "6975c604c2993f61dbadd164e01cf2c80e390cf6",
+                "url": "https://api.github.com/repos/symfony/options-resolver/zipball/40762ead607c8f792ee4516881369ffa553fee6f",
+                "reference": "40762ead607c8f792ee4516881369ffa553fee6f",
                 "shasum": ""
             },
             "require": {
@@ -4248,7 +4248,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "4.1-dev"
+                    "dev-master": "4.3-dev"
                 }
             },
             "autoload": {
@@ -4280,7 +4280,7 @@
                 "configuration",
                 "options"
             ],
-            "time": "2019-01-03T09:05:57+00:00"
+            "time": "2019-06-13T11:01:17+00:00"
         },
         {
             "name": "symfony/orm-pack",
@@ -4312,21 +4312,21 @@
         },
         {
             "name": "symfony/polyfill-intl-icu",
-            "version": "v1.10.0",
+            "version": "v1.12.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/polyfill-intl-icu.git",
-                "reference": "f22a90256d577c7ef7efad8df1f0201663d57644"
+                "reference": "66810b9d6eb4af54d543867909d65ab9af654d7e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/polyfill-intl-icu/zipball/f22a90256d577c7ef7efad8df1f0201663d57644",
-                "reference": "f22a90256d577c7ef7efad8df1f0201663d57644",
+                "url": "https://api.github.com/repos/symfony/polyfill-intl-icu/zipball/66810b9d6eb4af54d543867909d65ab9af654d7e",
+                "reference": "66810b9d6eb4af54d543867909d65ab9af654d7e",
                 "shasum": ""
             },
             "require": {
                 "php": ">=5.3.3",
-                "symfony/intl": "~2.3|~3.0|~4.0"
+                "symfony/intl": "~2.3|~3.0|~4.0|~5.0"
             },
             "suggest": {
                 "ext-intl": "For best performance"
@@ -4334,7 +4334,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "1.9-dev"
+                    "dev-master": "1.12-dev"
                 }
             },
             "autoload": {
@@ -4366,7 +4366,7 @@
                 "portable",
                 "shim"
             ],
-            "time": "2018-08-06T14:22:27+00:00"
+            "time": "2019-08-06T08:03:45+00:00"
         },
         {
             "name": "symfony/polyfill-intl-idn",
