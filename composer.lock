@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "9b12e5a60394300af3fb2a3ab6ff1281",
+    "content-hash": "7174a539e6e0e95b269e77df302c4e75",
     "packages": [
         {
             "name": "doctrine/annotations",
@@ -4044,65 +4044,6 @@
             "version": "v4.1.10",
             "source": {
                 "type": "git",
-                "url": "https://github.com/symfony/mime.git",
-                "reference": "6b7148029b1dd5eda1502064f06d01357b7b2d8b"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/symfony/mime/zipball/6b7148029b1dd5eda1502064f06d01357b7b2d8b",
-                "reference": "6b7148029b1dd5eda1502064f06d01357b7b2d8b",
-                "shasum": ""
-            },
-            "require": {
-                "php": "^7.1.3",
-                "symfony/polyfill-intl-idn": "^1.10",
-                "symfony/polyfill-mbstring": "^1.0"
-            },
-            "require-dev": {
-                "egulias/email-validator": "^2.0",
-                "symfony/dependency-injection": "~3.4|^4.1"
-            },
-            "type": "library",
-            "extra": {
-                "branch-alias": {
-                    "dev-master": "4.3-dev"
-                }
-            },
-            "autoload": {
-                "psr-4": {
-                    "Symfony\\Component\\Mime\\": ""
-                },
-                "exclude-from-classmap": [
-                    "/Tests/"
-                ]
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Fabien Potencier",
-                    "email": "fabien@symfony.com"
-                },
-                {
-                    "name": "Symfony Community",
-                    "homepage": "https://symfony.com/contributors"
-                }
-            ],
-            "description": "A library to manipulate MIME messages",
-            "homepage": "https://symfony.com",
-            "keywords": [
-                "mime",
-                "mime-type"
-            ],
-            "time": "2019-07-19T16:21:19+00:00"
-        },
-        {
-            "name": "symfony/monolog-bridge",
-            "version": "v4.1.10",
-            "source": {
-                "type": "git",
                 "url": "https://github.com/symfony/monolog-bridge.git",
                 "reference": "f6dabcec70ecbb37706adf94ac01525cbd621439"
             },
@@ -4546,25 +4487,25 @@
         },
         {
             "name": "symfony/process",
-            "version": "v4.1.10",
+            "version": "v4.4.14",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/process.git",
-                "reference": "5bcfa3a267431d95ab723101d2de3f48db1a0800"
+                "reference": "9b887acc522935f77555ae8813495958c7771ba7"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/process/zipball/5bcfa3a267431d95ab723101d2de3f48db1a0800",
-                "reference": "5bcfa3a267431d95ab723101d2de3f48db1a0800",
+                "url": "https://api.github.com/repos/symfony/process/zipball/9b887acc522935f77555ae8813495958c7771ba7",
+                "reference": "9b887acc522935f77555ae8813495958c7771ba7",
                 "shasum": ""
             },
             "require": {
-                "php": "^7.1.3"
+                "php": ">=7.1.3"
             },
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "4.1-dev"
+                    "dev-master": "4.4-dev"
                 }
             },
             "autoload": {
@@ -4591,7 +4532,21 @@
             ],
             "description": "Symfony Process Component",
             "homepage": "https://symfony.com",
-            "time": "2019-01-03T09:05:57+00:00"
+            "funding": [
+                {
+                    "url": "https://symfony.com/sponsor",
+                    "type": "custom"
+                },
+                {
+                    "url": "https://github.com/fabpot",
+                    "type": "github"
+                },
+                {
+                    "url": "https://tidelift.com/funding/github/packagist/symfony/symfony",
+                    "type": "tidelift"
+                }
+            ],
+            "time": "2020-09-02T16:08:58+00:00"
         },
         {
             "name": "symfony/property-access",
@@ -5862,19 +5817,19 @@
             "authors": [
                 {
                     "name": "Fabien Potencier",
-                    "role": "Lead Developer",
                     "email": "fabien@symfony.com",
-                    "homepage": "http://fabien.potencier.org"
+                    "homepage": "http://fabien.potencier.org",
+                    "role": "Lead Developer"
                 },
                 {
                     "name": "Armin Ronacher",
-                    "role": "Project Founder",
-                    "email": "armin.ronacher@active-4.com"
+                    "email": "armin.ronacher@active-4.com",
+                    "role": "Project Founder"
                 },
                 {
                     "name": "Twig Team",
-                    "role": "Contributors",
-                    "homepage": "https://twig.symfony.com/contributors"
+                    "homepage": "https://twig.symfony.com/contributors",
+                    "role": "Contributors"
                 }
             ],
             "description": "Twig, the flexible, fast, and secure template language for PHP",
@@ -5986,6 +5941,7 @@
                 "code",
                 "zf2"
             ],
+            "abandoned": "laminas/laminas-code",
             "time": "2018-08-13T20:36:59+00:00"
         },
         {
@@ -6040,6 +5996,7 @@
                 "events",
                 "zf2"
             ],
+            "abandoned": "laminas/laminas-eventmanager",
             "time": "2018-04-25T15:33:34+00:00"
         }
     ],
@@ -6216,6 +6173,7 @@
                 "monolog",
                 "productivity"
             ],
+            "abandoned": true,
             "time": "2018-07-27T15:41:37+00:00"
         },
         {
@@ -6223,12 +6181,12 @@
             "version": "1.6.0",
             "source": {
                 "type": "git",
-                "url": "https://github.com/facebook/php-webdriver.git",
+                "url": "https://github.com/php-webdriver/php-webdriver-archive.git",
                 "reference": "bd8c740097eb9f2fc3735250fc1912bc811a954e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/facebook/php-webdriver/zipball/bd8c740097eb9f2fc3735250fc1912bc811a954e",
+                "url": "https://api.github.com/repos/php-webdriver/php-webdriver-archive/zipball/bd8c740097eb9f2fc3735250fc1912bc811a954e",
                 "reference": "bd8c740097eb9f2fc3735250fc1912bc811a954e",
                 "shasum": ""
             },
@@ -6276,6 +6234,7 @@
                 "selenium",
                 "webdriver"
             ],
+            "abandoned": "php-webdriver/webdriver",
             "time": "2018-05-16T17:37:13+00:00"
         },
         {
@@ -7061,5 +7020,6 @@
         "ext-iconv": "*",
         "ext-json": "*"
     },
-    "platform-dev": []
+    "platform-dev": [],
+    "plugin-api-version": "1.1.0"
 }
